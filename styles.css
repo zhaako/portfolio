@@ -1,0 +1,285 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px; /* Использование относительных единиц */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px; /* Использование относительных единиц */
+}
+
+header {
+    background-color: #1e1e1e;
+    padding: 1.25rem; /* Переход к относительным единицам */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem; /* Использование относительных единиц */
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.125rem; /* Использование относительных единиц */
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff9800;
+    text-decoration: underline;
+}
+
+section {
+    padding: 3.75rem 1.25rem; /* Использование относительных единиц */
+    max-width: 800px;
+    margin: auto;
+    background: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    margin-bottom: 2rem; /* Использование относительных единиц */
+}
+
+h1, h2 {
+    color: #ff9800;
+    margin-bottom: 1.25rem; /* Использование относительных единиц */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* Использование относительных единиц */
+    max-width: 400px;
+    margin: auto;
+    background: #1e1e1e;
+    padding: 1.25rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+input, textarea, button {
+    padding: 0.625rem; /* Использование относительных единиц */
+    font-size: 1rem; /* Использование относительных единиц */
+    border: none;
+    border-radius: 5px;
+}
+
+input, textarea {
+    background: #333;
+    color: white;
+}
+
+button {
+    background-color: #ff9800;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #e68900;
+}
+
+footer {
+    text-align: center;
+    padding: 1.25rem; /* Использование относительных единиц */
+    background-color: #1e1e1e;
+    color: white;
+    margin-top: 2rem; /* Использование относительных единиц */
+    border-top: 2px solid #ff9800;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    section {
+        padding: 2rem;
+    }
+    h1, h2 {
+        font-size: 1.5rem; /* Меньший размер шрифта для мобильных */
+    }
+    nav a {
+        font-size: 1rem; /* Меньший размер шрифта для мобильных */
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px; /* Еще меньше размер шрифта для очень маленьких экранов */
+    }
+    .project-card {
+        max-width: 100%; /* Карточки проектов будут занимать весь доступный блок */
+    }
+}
+
+
+header {
+    background-color: #1e1e1e;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff9800;
+    text-decoration: underline;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: auto;
+    background: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    margin-bottom: 30px;
+}
+
+h1, h2 {
+    color: #ff9800;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+input, textarea, button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+input, textarea {
+    background: #333;
+    color: white;
+}
+
+button {
+    background-color: #ff9800;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #e68900;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e1e1e;
+    color: white;
+    margin-top: 30px;
+    border-top: 2px solid #ff9800;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    section {
+        padding: 30px;
+    }
+}
+.project-card {
+    background: #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.project-card h3 {
+    color: #ff9800;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.project-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9800;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.project-btn:hover {
+    background-color: #e68900;
+}
+
+.project-btn:active {
+    background-color: #d47900;
+}
